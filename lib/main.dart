@@ -172,7 +172,7 @@ class _HomePageState extends State<HomePage>
                     '.' * TypingContext.maxLineLength,
                     style: Theme.of(context)
                         .textTheme
-                        .headline4
+                        .headlineMedium
                         ?.copyWith(color: Colors.transparent),
                   ),
                 ),
@@ -262,7 +262,7 @@ class _HomePageState extends State<HomePage>
                                   'Test completed',
                                   style: Theme.of(context)
                                       .textTheme
-                                      .headline4
+                                      .headlineMedium
                                       ?.copyWith(
                                         color: Theme.of(context).hintColor,
                                       ),
@@ -286,7 +286,7 @@ class _HomePageState extends State<HomePage>
   Text _buildTitle(String text) {
     return Text(
       text,
-      style: Theme.of(context).textTheme.headline5?.copyWith(
+      style: Theme.of(context).textTheme.headlineSmall?.copyWith(
             color: ThemeColors.green,
           ),
     );
@@ -302,7 +302,7 @@ class _HomePageState extends State<HomePage>
         typingContext.getLine(nextLineStart),
         style: Theme.of(context)
             .textTheme
-            .headline4
+            .headlineMedium
             ?.copyWith(color: Theme.of(context).hintColor),
       ),
     );
@@ -340,7 +340,7 @@ class _HomePageState extends State<HomePage>
                 ),
             },
           ],
-          style: Theme.of(context).textTheme.headline4,
+          style: Theme.of(context).textTheme.headlineMedium,
         ),
       ),
     );
@@ -383,7 +383,7 @@ class _HomePageState extends State<HomePage>
                     ],
                     style: Theme.of(context)
                         .textTheme
-                        .headline4
+                        .headlineMedium
                         ?.copyWith(color: Colors.transparent),
                   ),
                 ),
@@ -463,7 +463,7 @@ class _HomePageState extends State<HomePage>
                     ),
                   ),
               ],
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headlineMedium,
             ),
           ),
         ),
